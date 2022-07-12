@@ -1,0 +1,70 @@
+/* 
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), 0 10px 0 -5px #eee,
+    0 10px 1px -4px rgba(0, 0, 0, 0.15), 0 20px 0 -10px #eee,
+    0 20px 1px -9px rgba(0, 0, 0, 0.15); */
+
+body {
+  background: rgb(230, 95, 102);
+}
+
+.birthday-container {
+  width: 60%;
+  max-width: 400px;
+  margin: auto;
+  margin-top: 30px;
+  padding: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background: rgb(245, 238, 189);
+  border-radius: 15px;
+  box-shadow: 10px 10px 15px rgba(72, 52, 52, 0.3),
+    inset 5px 5px 5px rgba(72, 52, 52, 0.3);
+}
+
+.birthday-info {
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.birthday-info-strings {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
+  text-align: left;
+}
+.btn {
+  background: rgb(230, 95, 102);
+  width: 40%;
+  height: 30px;
+  color: rgb(245, 238, 189);
+  border-radius: 5px;
+  border: none;
+  margin-left: 30%;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 2rem;
+  color: rgba(29, 27, 27, 0.9);
+  margin: 0;
+  margin-bottom: 10px;
+}
+h4 {
+  margin: 0;
+  font-size: 1rem;
+  color: rgba(29, 27, 27, 0.6);
+}
+h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  color: rgba(29, 27, 27, 1);
+}
+
+img {
+  width: 15%;
+  border-radius: 40%;
+}
